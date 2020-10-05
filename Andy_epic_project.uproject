@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.22",
+	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -45,10 +45,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "HTML5Networking",
-			"Enabled": true
-		},
-		{
 			"Name": "NetcodeUnitTest",
 			"Enabled": true
 		},
@@ -57,12 +53,27 @@
 			"Enabled": true
 		},
 		{
-			"Name": "SimpleHMD",
+			"Name": "WebBrowserWidget",
 			"Enabled": true
 		},
 		{
-			"Name": "WebBrowserWidget",
-			"Enabled": true
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
 		}
 	]
 }
